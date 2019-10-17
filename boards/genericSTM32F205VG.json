@@ -1,0 +1,41 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m3",
+    "extra_flags": "-DSTM32F205xx",
+    "f_cpu": "120000000L",
+    "mcu": "stm32f205vgt6"
+  },
+  "connectivity": [
+    "can",
+    "ethernet"
+  ],
+  "debug": {
+    "default_tools": [
+      "stlink"
+    ],
+    "jlink_device": "STM32F205VG",
+    "onboard_tools": [
+      "stlink"
+    ],
+    "openocd_target": "stm32f2x",
+    "svd_path": "STM32F20x.svd"
+  },
+  "frameworks": [
+    "stm32cube"
+  ],
+  "name": "Generic STM32F205VG",
+  "upload": {
+    "maximum_ram_size": 131072,
+    "maximum_size": 1048576,
+    "protocol": "stlink",
+    "protocols": [
+      "jlink",
+      "stlink",
+      "blackmagic",
+      "mbed"
+    ]
+  },
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f205vg.html",
+  "vendor": "ST"
+}
