@@ -19,8 +19,8 @@ How to build PlatformIO based project
 
 .. code-block:: bash
 
-    # Change directory to example
-    > cd platform-ststm32/examples/stm32cube-hal-blink
+    # clone directory and change directory to example
+    > git clone https://github.com/maxgerhardt/pio-stm32f205.git && cd pio-stm32f205
 
     # Build project
     > platformio run
